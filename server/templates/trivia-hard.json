@@ -1,0 +1,103 @@
+{
+  "title": "雑学クイズ（難問編）",
+  "description": "medium〜hard中心の雑学クイズ（10問）",
+  "author": "クイズNo.2",
+  "version": "1.0",
+  "settings": {
+    "defaultTimeLimit": 30,
+    "shuffleQuestions": true,
+    "shuffleChoices": true
+  },
+  "quizzes": [
+    {
+      "id": 1,
+      "question": "日本で最初の元号は？",
+      "choices": ["大化", "和銅", "慶雲", "明治"],
+      "correctAnswer": 0,
+      "explanation": "日本最初の元号は「大化」（645年）です。大化の改新のきっかけとなった中大兄皇子らによるクーデターの翌年に制定されました。",
+      "category": "歴史",
+      "difficulty": "medium"
+    },
+    {
+      "id": 2,
+      "question": "ザンビアで2番目に長い川は？",
+      "choices": ["カフエ川", "ルアングワ川", "ルアプラ川", "カブンポ川"],
+      "correctAnswer": 0,
+      "explanation": "ザンビア2番目の長さを誇るのはカフエ川（約965km）です。最長のザンベジ川の支流で、ザンビア国内のみを流れます。カフエ国立公園はアフリカ最大級の国立公園として知られています。",
+      "category": "地理",
+      "difficulty": "hard"
+    },
+    {
+      "id": 3,
+      "question": "世界で最も深い湖は？",
+      "choices": ["カスピ海", "タンガニーカ湖", "バイカル湖", "スペリオル湖"],
+      "correctAnswer": 2,
+      "explanation": "ロシアのバイカル湖は最深部1,642mで世界最深の湖です。また世界最大の淡水量（地球上の淡水の約20%）を誇ります。",
+      "category": "地理",
+      "difficulty": "medium"
+    },
+    {
+      "id": 4,
+      "question": "FIFAワールドカップで最多優勝しているのはどの国？",
+      "choices": ["ドイツ", "アルゼンチン", "ブラジル", "イタリア"],
+      "correctAnswer": 2,
+      "explanation": "ブラジルはワールドカップ最多の5回優勝（1958・1962・1970・1994・2002年）しています。唯一すべての大会に出場し続けている国でもあります。",
+      "category": "スポーツ",
+      "difficulty": "medium"
+    },
+    {
+      "id": 5,
+      "question": "DNAの二重らせん構造が発見されたのはいつ？",
+      "choices": ["1943年", "1953年", "1963年", "1973年"],
+      "correctAnswer": 1,
+      "explanation": "1953年、ジェームズ・ワトソンとフランシス・クリックがDNAの二重らせん構造を解明しました。この発見は生命科学の最大の革命のひとつとされています。",
+      "category": "科学",
+      "difficulty": "medium"
+    },
+    {
+      "id": 6,
+      "question": "元素記号「W」はどの元素？",
+      "choices": ["タングステン", "ウラン", "バリウム", "ビスマス"],
+      "correctAnswer": 0,
+      "explanation": "Wはタングステンです。ドイツ語名「Wolfram（ヴォルフラム）」の頭文字に由来します。融点は約3,422℃で全金属中最高。電球のフィラメントに使われます。",
+      "category": "科学",
+      "difficulty": "hard"
+    },
+    {
+      "id": 7,
+      "question": "人体で最も硬い組織は？",
+      "choices": ["骨", "軟骨", "歯のエナメル質", "爪"],
+      "correctAnswer": 2,
+      "explanation": "歯のエナメル質は人体最硬の組織で、モース硬度は約7（骨は約5〜6）。ただし非常に脆く、割れると再生できません。",
+      "category": "科学",
+      "difficulty": "medium"
+    },
+    {
+      "id": 8,
+      "question": "円周率πの小数点以下5桁目の数字は？",
+      "choices": ["2", "5", "8", "9"],
+      "correctAnswer": 3,
+      "explanation": "π = 3.14159265... で、小数点以下5桁目は9です。3→1→4→1→5→9→2→6→5…と続きます。",
+      "category": "数学",
+      "difficulty": "hard"
+    },
+    {
+      "id": 9,
+      "question": "モンゴルの首都「ウランバートル」の意味は？",
+      "choices": ["青い空", "赤い英雄", "黄金の宮殿", "白い山"],
+      "correctAnswer": 1,
+      "explanation": "ウランバートルはモンゴル語で「赤い英雄」を意味します。1924年にモンゴル人民共和国が成立した際、革命英雄スフバートルを称えてこの名になりました。",
+      "category": "地理",
+      "difficulty": "hard"
+    },
+    {
+      "id": 10,
+      "question": "史上最短の戦争「アングロ・ザンジバル戦争」の戦闘時間は？",
+      "choices": ["約38分", "約6時間", "約3日間", "約2週間"],
+      "correctAnswer": 0,
+      "explanation": "1896年8月、イギリスとザンジバル（現タンザニア）の間で起きたこの戦争は、わずか38〜45分で終結しました。ギネス世界記録に「史上最短の戦争」として認定されています。",
+      "category": "歴史",
+      "difficulty": "hard"
+    }
+  ]
+}

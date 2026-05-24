@@ -1,0 +1,157 @@
+{
+  "title": "日本地理クイズ",
+  "description": "都道府県、地形、気候に関する15問",
+  "author": "Quize Second",
+  "version": "1.0",
+  "createdAt": "2024-01-01T00:00:00Z",
+
+  "settings": {
+    "defaultTimeLimit": 30,
+    "shuffleQuestions": true,
+    "shuffleChoices": true
+  },
+
+  "quizzes": [
+    {
+      "id": "geo_001",
+      "question": "日本の首都は？",
+      "choices": ["東京", "大阪", "京都", "名古屋"],
+      "correctAnswer": 0,
+      "category": "都道府県",
+      "difficulty": "easy",
+      "explanation": "東京は1868年の明治維新以降、日本の首都となりました。"
+    },
+    {
+      "id": "geo_002",
+      "question": "日本で最も面積が大きい都道府県は？",
+      "choices": ["北海道", "岩手県", "福島県", "長野県"],
+      "correctAnswer": 0,
+      "category": "都道府県",
+      "difficulty": "easy",
+      "explanation": "北海道は83,424 km²で日本最大の面積を持ちます。"
+    },
+    {
+      "id": "geo_003",
+      "question": "富士山がある都道府県は？",
+      "choices": [
+        "静岡県のみ",
+        "山梨県のみ",
+        "静岡県と山梨県",
+        "長野県と山梨県"
+      ],
+      "correctAnswer": 2,
+      "category": "地形",
+      "difficulty": "medium",
+      "explanation": "富士山は静岡県と山梨県の県境にまたがっています。標高3,776m。"
+    },
+    {
+      "id": "geo_004",
+      "question": "日本で最も人口が多い都道府県は？",
+      "choices": ["東京都", "神奈川県", "大阪府", "愛知県"],
+      "correctAnswer": 0,
+      "timeLimit": 20,
+      "category": "都道府県",
+      "difficulty": "easy",
+      "explanation": "東京都は約1400万人で日本最多の人口です。"
+    },
+    {
+      "id": "geo_005",
+      "question": "日本で最も長い川は？",
+      "choices": ["利根川", "信濃川", "石狩川", "天塩川"],
+      "correctAnswer": 1,
+      "category": "地形",
+      "difficulty": "medium",
+      "explanation": "信濃川は全長367kmで日本最長の川です。新潟県と長野県を流れます。"
+    },
+    {
+      "id": "geo_006",
+      "question": "日本で最も大きい湖は？",
+      "choices": ["霞ヶ浦", "琵琶湖", "サロマ湖", "猪苗代湖"],
+      "correctAnswer": 1,
+      "category": "地形",
+      "difficulty": "easy",
+      "explanation": "琵琶湖は面積670 km²で日本最大の湖です。滋賀県にあります。"
+    },
+    {
+      "id": "geo_007",
+      "question": "日本の最北端の島は？",
+      "choices": ["択捉島", "礼文島", "利尻島", "稚内"],
+      "correctAnswer": 0,
+      "category": "地形",
+      "difficulty": "hard",
+      "explanation": "択捉島（えとろふとう）は北方領土の一つで、日本の最北端です。"
+    },
+    {
+      "id": "geo_008",
+      "question": "沖縄県の県庁所在地は？",
+      "choices": ["那覇市", "沖縄市", "宜野湾市", "浦添市"],
+      "correctAnswer": 0,
+      "category": "都道府県",
+      "difficulty": "easy",
+      "explanation": "那覇市は沖縄県の県庁所在地で、人口約32万人です。"
+    },
+    {
+      "id": "geo_009",
+      "question": "瀬戸内海に面していない県は？",
+      "choices": ["岡山県", "広島県", "島根県", "香川県"],
+      "correctAnswer": 2,
+      "category": "地形",
+      "difficulty": "medium",
+      "explanation": "島根県は日本海側に位置し、瀬戸内海には面していません。"
+    },
+    {
+      "id": "geo_010",
+      "question": "日本の都道府県の数は？",
+      "choices": ["45", "46", "47", "48"],
+      "correctAnswer": 2,
+      "category": "都道府県",
+      "difficulty": "easy",
+      "explanation": "日本には1都1道2府43県の合計47都道府県があります。"
+    },
+    {
+      "id": "geo_011",
+      "question": "日本アルプスに含まれないのは？",
+      "choices": ["飛騨山脈", "木曽山脈", "赤石山脈", "奥羽山脈"],
+      "correctAnswer": 3,
+      "category": "地形",
+      "difficulty": "hard",
+      "explanation": "日本アルプスは北アルプス（飛騨山脈）、中央アルプス（木曽山脈）、南アルプス（赤石山脈）の総称です。"
+    },
+    {
+      "id": "geo_012",
+      "question": "四国地方に含まれない県は？",
+      "choices": ["徳島県", "香川県", "岡山県", "愛媛県"],
+      "correctAnswer": 2,
+      "category": "都道府県",
+      "difficulty": "easy",
+      "explanation": "四国地方は徳島県、香川県、愛媛県、高知県の4県です。岡山県は中国地方です。"
+    },
+    {
+      "id": "geo_013",
+      "question": "東京23区で最も面積が大きいのは？",
+      "choices": ["世田谷区", "大田区", "江戸川区", "足立区"],
+      "correctAnswer": 1,
+      "category": "都道府県",
+      "difficulty": "hard",
+      "explanation": "大田区は60.83 km²で東京23区最大の面積を持ちます。"
+    },
+    {
+      "id": "geo_014",
+      "question": "日本の最南端の島は？",
+      "choices": ["与那国島", "波照間島", "沖ノ鳥島", "南鳥島"],
+      "correctAnswer": 2,
+      "category": "地形",
+      "difficulty": "hard",
+      "explanation": "沖ノ鳥島（おきのとりしま）は北緯20度25分に位置し、日本の最南端です。"
+    },
+    {
+      "id": "geo_015",
+      "question": "日本で唯一、海に面していない地方は？",
+      "choices": ["近畿地方", "中部地方", "関東地方", "該当なし"],
+      "correctAnswer": 3,
+      "category": "地形",
+      "difficulty": "medium",
+      "explanation": "日本のすべての地方が海に面しています。ただし、海に面していない県は8県あります。"
+    }
+  ]
+}

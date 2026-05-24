@@ -1,0 +1,111 @@
+{
+  "title": "デフォルトクイズ",
+  "description": "サンプル問題10問",
+  "author": "Quize Second",
+  "version": "1.0",
+  "createdAt": "2024-01-01T00:00:00Z",
+
+  "settings": {
+    "defaultTimeLimit": 30,
+    "shuffleQuestions": true,
+    "shuffleChoices": true
+  },
+
+  "quizzes": [
+    {
+      "id": 1,
+      "question": "1 + 1 = ?",
+      "choices": ["1", "2", "3", "4"],
+      "correctAnswer": 1,
+      "category": "算数",
+      "difficulty": "easy",
+      "explanation": "1に1を足すと2になります。"
+    },
+    {
+      "id": 2,
+      "question": "地球で最も大きな海は？",
+      "choices": ["大西洋", "太平洋", "インド洋", "北極海"],
+      "correctAnswer": 1,
+      "category": "地理",
+      "difficulty": "easy",
+      "explanation": "太平洋は世界最大の海で、地球の表面積の約3分の1を占めます。"
+    },
+    {
+      "id": 3,
+      "question": "日本の国鳥は？",
+      "choices": ["キジ", "ツル", "タカ", "スズメ"],
+      "correctAnswer": 0,
+      "category": "雑学",
+      "difficulty": "medium",
+      "explanation": "キジは1947年に日本の国鳥に指定されました。"
+    },
+    {
+      "id": 4,
+      "question": "光の速さは秒速約何km？",
+      "choices": ["30万km", "300万km", "3000万km", "3億km"],
+      "correctAnswer": 0,
+      "category": "理科",
+      "difficulty": "medium",
+      "explanation": "光速は秒速約30万km（正確には299,792km）です。"
+    },
+    {
+      "id": 5,
+      "question": "水の化学式は？",
+      "choices": ["H2O", "CO2", "O2", "H2O2"],
+      "correctAnswer": 0,
+      "category": "理科",
+      "difficulty": "easy",
+      "explanation": "水は水素2つと酸素1つからなるH2Oです。"
+    },
+    {
+      "id": 6,
+      "question": "日本で最も高い山は？",
+      "choices": ["富士山", "北岳", "穂高岳", "槍ヶ岳"],
+      "correctAnswer": 0,
+      "category": "地理",
+      "difficulty": "easy",
+      "explanation": "富士山は標高3,776mで日本最高峰です。"
+    },
+    {
+      "id": 7,
+      "question": "夏季オリンピックが初めて開催されたのは？",
+      "choices": ["1896年", "1900年", "1904年", "1908年"],
+      "correctAnswer": 0,
+      "category": "スポーツ",
+      "difficulty": "hard",
+      "explanation": "第1回近代オリンピックは1896年にギリシャのアテネで開催されました。"
+    },
+    {
+      "id": 8,
+      "question": "一週間は何日？",
+      "choices": ["5日", "6日", "7日", "8日"],
+      "correctAnswer": 2,
+      "category": "一般常識",
+      "difficulty": "easy",
+      "explanation": "一週間は月曜日から日曜日までの7日間です。"
+    },
+    {
+      "id": 9,
+      "question": "円周率πの最初の3桁は？",
+      "choices": ["3.14", "3.15", "3.16", "3.12"],
+      "correctAnswer": 0,
+      "category": "算数",
+      "difficulty": "easy",
+      "explanation": "円周率πは3.14159...と続きます。"
+    },
+    {
+      "id": 10,
+      "question": "インターネットの「www」は何の略？",
+      "choices": [
+        "World Wide Web",
+        "World Web Wide",
+        "Wide World Web",
+        "Web Wide World"
+      ],
+      "correctAnswer": 0,
+      "category": "IT",
+      "difficulty": "medium",
+      "explanation": "WWWはWorld Wide Webの略で、1989年にティム・バーナーズ=リーによって発明されました。"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "title": "デフォルトクイズ",
+  "description": "サンプル問題10問",
+  "author": "Quize Second",
+  "version": "1.0",
+  "createdAt": "2024-01-01T00:00:00Z",
+
+  "settings": {
+    "defaultTimeLimit": 30,
+    "shuffleQuestions": false,
+    "shuffleChoices": false
+  },
+
+  "quizzes": [
+    {
+      "id": 1,
+      "question": "1 + 1 = ?",
+      "choices": ["1", "2", "3", "4"],
+      "correctAnswer": 1,
+      "category": "算数",
+      "difficulty": "easy",
+      "explanation": "1に1を足すと2になります。"
+    },
+    {
+      "id": 2,
+      "question": "地球で最も大きな海は？",
+      "choices": ["大西洋", "太平洋", "インド洋", "北極海"],
+      "correctAnswer": 1,
+      "category": "地理",
+      "difficulty": "easy",
+      "explanation": "太平洋は世界最大の海で、地球の表面積の約3分の1を占めます。"
+    }
+  ]
+}

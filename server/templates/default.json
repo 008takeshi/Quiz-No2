@@ -1,0 +1,103 @@
+{
+  "title": "サンプルクイズ",
+  "description": "デフォルトの雑学クイズ（10問）",
+  "author": "クイズNo.2",
+  "version": "1.0",
+  "settings": {
+    "defaultTimeLimit": 30,
+    "shuffleQuestions": true,
+    "shuffleChoices": true
+  },
+  "quizzes": [
+    {
+      "id": 1,
+      "question": "晴れた日の空は何色？",
+      "choices": ["赤", "黄", "青", "緑"],
+      "correctAnswer": 2,
+      "explanation": "晴れた日の空は青く見えます。太陽光が大気中の分子によって散乱される「レイリー散乱」という現象が原因です。夕焼けが赤いのも同じ原理です。",
+      "category": "一般常識",
+      "difficulty": "very easy"
+    },
+    {
+      "id": 2,
+      "question": "日本の首都は？",
+      "choices": ["東京", "大阪", "京都", "名古屋"],
+      "correctAnswer": 0,
+      "explanation": "日本の首都は東京です。1869年に明治天皇が京都から江戸（東京）に移り、首都となりました。",
+      "category": "地理",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "question": "オリンピックの輪の数は？",
+      "choices": ["4", "5", "6", "7"],
+      "correctAnswer": 1,
+      "explanation": "オリンピックのシンボルは5つの輪（五輪）で、青・黄・黒・緑・赤の5色です。世界5大陸（アフリカ・アメリカ・アジア・ヨーロッパ・オセアニア）を表しています。",
+      "category": "スポーツ",
+      "difficulty": "easy"
+    },
+    {
+      "id": 4,
+      "question": "世界で最も高い山は？",
+      "choices": ["K2", "マッキンリー", "エベレスト", "キリマンジャロ"],
+      "correctAnswer": 2,
+      "explanation": "エベレスト（チョモランマ）は標高8,849mで世界最高峰の山です。ネパールと中国チベット自治区の国境に位置するヒマラヤ山脈の一峰です。",
+      "category": "地理",
+      "difficulty": "easy"
+    },
+    {
+      "id": 5,
+      "question": "富士山の高さは約何メートル？",
+      "choices": ["3,376m", "3,776m", "3,576m", "3,976m"],
+      "correctAnswer": 1,
+      "explanation": "富士山の標高は3,776mで、日本最高峰の山です。静岡県と山梨県にまたがる成層火山で、世界文化遺産にも登録されています。",
+      "category": "地理",
+      "difficulty": "medium"
+    },
+    {
+      "id": 6,
+      "question": "人間の体で最も大きな臓器は？",
+      "choices": ["肝臓", "肺", "皮膚", "心臓"],
+      "correctAnswer": 2,
+      "explanation": "皮膚は体全体を覆う最大の臓器で、成人の平均面積は約1.6〜1.9m²、重さは約3〜4kgです。体温調節・保護・感覚など多くの役割を担います。",
+      "category": "科学",
+      "difficulty": "medium"
+    },
+    {
+      "id": 7,
+      "question": "1 + 1 = ?",
+      "choices": ["1", "2", "3", "4"],
+      "correctAnswer": 1,
+      "explanation": "答えは2です。指を使って確認した方、正解です。わからなかった方、このアプリを閉じて小学校に入り直すことをお勧めします。",
+      "category": "算数",
+      "difficulty": "medium"
+    },
+    {
+      "id": 8,
+      "question": "元素記号「W」はどの元素？",
+      "choices": ["タングステン", "ウラン", "バリウム", "ビスマス"],
+      "correctAnswer": 0,
+      "explanation": "Wはタングステンです。ドイツ語名「Wolfram（ヴォルフラム）」の頭文字に由来します。融点は約3,422℃で全金属中最高。電球のフィラメントに使われます。",
+      "category": "科学",
+      "difficulty": "hard"
+    },
+    {
+      "id": 9,
+      "question": "ザンビアで2番目に長い川は？",
+      "choices": ["カフエ川", "ルアングワ川", "ルアプラ川", "カブンポ川"],
+      "correctAnswer": 0,
+      "explanation": "ザンビア2番目の長さを誇るのはカフエ川（約965km）です。最長のザンベジ川の支流で、ザンビア国内のみを流れます。カフエ国立公園はアフリカ最大級の国立公園として知られています。",
+      "category": "地理",
+      "difficulty": "hard"
+    },
+    {
+      "id": 10,
+      "question": "史上最短の戦争「アングロ・ザンジバル戦争」の戦闘時間は？",
+      "choices": ["約38分", "約6時間", "約3日間", "約2週間"],
+      "correctAnswer": 0,
+      "explanation": "1896年8月、イギリスとザンジバル（現タンザニア）の間で起きたこの戦争は、わずか38〜45分で終結しました。ギネス世界記録に「史上最短の戦争」として認定されています。",
+      "category": "歴史",
+      "difficulty": "hard"
+    }
+  ]
+}
